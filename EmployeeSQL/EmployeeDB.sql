@@ -39,7 +39,7 @@ CREATE TABLE "titles" (
 
 CREATE TABLE "salaries" (
     "emp_no" INT   NOT NULL,
-    "salary" MONEY   NOT NULL
+    "salary" FLOAT   NOT NULL
 );
 
 CREATE TABLE "dept_emp" (
