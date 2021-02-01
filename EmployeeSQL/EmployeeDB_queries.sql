@@ -2,8 +2,8 @@
 -- first name, sex, and salary.
 
 SELECT e.emp_no, e.last_name, e.first_name, e.sex, s.salary
-FROM employees AS e, salaries AS s
-WHERE e.emp_no = s.emp_no;
+	FROM employees AS e, salaries AS s
+	WHERE e.emp_no = s.emp_no;
 
 
 -- List first name, last name, and hire date for employees who were hired in 1986.
