@@ -33,8 +33,8 @@ SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
 -- is "Hercules" and last names begin with "B."
 
 SELECT first_name, last_name, sex
-FROM employees
-WHERE first_name = 'Hercules' AND last_name LIKE 'B%';
+	FROM employees
+	WHERE first_name = 'Hercules' AND last_name LIKE 'B%';
 
 
 -- List all employees in the Sales department, including their employee number,
