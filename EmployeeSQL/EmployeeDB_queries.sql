@@ -57,7 +57,7 @@ SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
 -- i.e., how many employees share each last name.
 
 SELECT last_name, COUNT(last_name)
-FROM employees
-GROUP BY last_name
-ORDER BY COUNT(last_name) DESC;
+	FROM employees
+	GROUP BY last_name
+	ORDER BY COUNT(last_name) DESC;
 
