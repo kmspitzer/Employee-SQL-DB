@@ -49,8 +49,8 @@ SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
 -- including their employee number, last name, first name, and department name.
 
 SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
-FROM employees AS e, departments AS d, dept_emp AS de
-WHERE e.emp_no = de.emp_no AND de.dept_no = d.dept_no
+	FROM employees AS e, departments AS d, dept_emp AS de
+	WHERE e.emp_no = de.emp_no AND de.dept_no = d.dept_no
 		AND (d.dept_name = 'Sales' OR d.dept_name = 'Development');
 
 -- In descending order, list the frequency count of employee last names,
