@@ -25,8 +25,8 @@ SELECT d.dept_no, d.dept_name, e.emp_no, e.last_name, e.first_name
 -- employee number, last name, first name, and department name.
 
 SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
-FROM employees AS e, departments AS d, dept_emp AS de
-WHERE e.emp_no = de.emp_no AND d.dept_no = de.dept_no;
+	FROM employees AS e, departments AS d, dept_emp AS de
+	WHERE e.emp_no = de.emp_no AND d.dept_no = de.dept_no;
 
 
 -- List first name, last name, and sex for employees whose first name
