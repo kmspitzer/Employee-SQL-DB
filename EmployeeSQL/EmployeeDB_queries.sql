@@ -17,8 +17,8 @@ SELECT first_name, last_name, hire_date
 -- department name, the manager's employee number, last name, first name.
 
 SELECT d.dept_no, d.dept_name, e.emp_no, e.last_name, e.first_name
-FROM employees AS e, departments AS d, dept_manager AS dm
-WHERE e.emp_no = dm.emp_no AND d.dept_no = dm.dept_no;
+	FROM employees AS e, departments AS d, dept_manager AS dm
+	WHERE e.emp_no = dm.emp_no AND d.dept_no = dm.dept_no;
 
 
 -- List the department of each employee with the following information:
