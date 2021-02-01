@@ -41,8 +41,8 @@ SELECT first_name, last_name, sex
 -- last name, first name, and department name.
 
 SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
-FROM employees AS e, departments AS d, dept_emp AS de
-WHERE e.emp_no = de.emp_no AND de.dept_no = d.dept_no AND d.dept_name = 'Sales';
+	FROM employees AS e, departments AS d, dept_emp AS de
+	WHERE e.emp_no = de.emp_no AND de.dept_no = d.dept_no AND d.dept_name = 'Sales';
 
 
 -- List all employees in the Sales and Development departments,
