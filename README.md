@@ -1,8 +1,5 @@
 # sql-challenge
 
-UCSD Data Science and Visualization Bootcamp - Pandas HW 1 Feb 2021
-
-This repository contains files pertaining to the SQL Homework due 1 Feb 2021.
 
 EmployeeDB
 ----------
