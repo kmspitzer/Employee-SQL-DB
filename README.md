@@ -4,12 +4,12 @@
 EmployeeDB
 ----------
 
-In this assignment, we were asked to use CSV data files to create a Database Schema using  http://www.quickdatabasediagrams.com/.
+This functionality uses CSV data files to create a Database Schema using  http://www.quickdatabasediagrams.com/.
 
 Using Quick Database Diagrams, PostgreSQL code was imported and run in pgadmin to create our database tables.  The tables were populated by imports into each database
-from the original CSV files.  It was important to load data into tables with no constraints, first, followed by tables with the least constraints, and culminating with those with
-the most restrictive constraints.  These constraints help to maintain database integrity, and due to the restrictions they place on data that is allowable in the tables, they will
-result in import failures constrainsts are not met.
+from the original CSV files.  It was important to load data into tables with no constraints, first, followed by tables with the least constraints, and culminating with
+those with the most restrictive constraints.  These constraints help to maintain database integrity, and due to the restrictions they place on data that is allowable in
+the tables, they will result in import failures constrainsts are not met.
 
 Database - Employee_db
 ----------------------
