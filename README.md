@@ -21,7 +21,7 @@ Table - departments
       - dept_emp
       
 
-![image](/EmployeeSQL/images/EmployeeDB_QDBD_scrnshot_.png)
+![image](/EmployeeSQL/images/EmployeeDB_QDBD_export.png)
       
 
 Queries Performed on Database
