@@ -21,7 +21,7 @@ Table - departments
       - dept_emp
       
 
-![image](/EmployeeSQL/images/EmployeeDB_QDBD_scrnshot_.png
+![image](/EmployeeSQL/images/EmployeeDB_QDBD_scrnshot_.png)
       
 
 Queries Performed on Database
@@ -58,7 +58,7 @@ Queries Performed on Database
       
       
 ![image](/EmployeeSQL/images/salary_histogram.png)
-![image](/EmployeeSQL/images/avgsalarybytitle_barchart.png}
+![image](/EmployeeSQL/images/avgsalarybytitle_barchart.png)
       
       
       
