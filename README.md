@@ -21,6 +21,9 @@ Table - departments
       - dept_emp
       
 
+![image](/EmployeeSQL/images/EmployeeDB_QDBD_scrnshot_.png
+      
+
 Queries Performed on Database
 -----------------------------
       - List the following details of each employee: employee number, last name, first name, sex, and salary.
@@ -52,6 +55,10 @@ Queries Performed on Database
       - Jupyter notebook containing python/pandas/matplotlib code to read database and generate charts: located in EmployeeSQLtoPandas.ipynb
       - PNG file containing salary histogram: located in images/salary_histogram.png
       - PNG file containing Average Salary By Title horizontal barchart: located in images/avgsalarybytitle_barchart.png
+      
+      
+![image](/EmployeeSQL/images/salary_histogram.png)
+![image](/EmployeeSQL/images/avgsalarybytitle_barchart.png}
       
       
       
